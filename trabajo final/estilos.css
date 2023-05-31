@@ -1,0 +1,79 @@
+body{
+    background-color: #8716bbe1;
+
+}
+.logo{
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 5%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border: none;
+    color: #000000;
+    font-size: 2em;
+    height: 400px;
+    width: 328px;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color: #000000;}
+.text-area:focus{
+    outline:none;
+}
+.mensaje{
+    background: rgb(0, 0, 0);
+    background-image: url("./imagen.webp" ) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border: none;
+    border-radius: 24px;
+    color:#010408;
+    height: 500px;
+    width: 400px;
+    margin-left: 798px;
+    margin-top: 10px;
+    padding-left: 20px;
+    position: fixed;
+    
+    
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+.btn-encriptar{
+    background-color: #FF5733;
+    border: 1px solid #ebebeb;
+    border-radius: 24px;
+    color: #ffffff;
+    font-size: 2em;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-right: 10px;
+}
+.btn-desencriptar{
+    background-color: #FF5733;
+    border: 1px solid #ffffffe1;
+    border-radius: 24px;
+    color: #ffffff;
+    font-size: 2em;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.informacion{
+    color: #000000;
+    font-size: 20px;
+}
